@@ -34,7 +34,14 @@ p {
     height: 70px;
     display: flex;
     align-items: center;
+    opacity: 0;
 }
+
+.section:hover, .section:hover ~ .loader {
+    opacity: 100%;
+    cursor: pointer;
+}
+
 
 .loader .stroke {
     display: block;
