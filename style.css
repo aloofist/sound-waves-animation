@@ -35,7 +35,7 @@ p {
     display: flex;
     align-items: center;
     opacity: 0;
-    animation: fade-out 0.5s ease-in-out;
+    transition: 1s ease-out;
 }
 
 .section:hover{
@@ -44,25 +44,7 @@ p {
 
 .section:hover ~ .loader {
     opacity: 100%;
-    animation: fade 1s ease-in-out;
-}
-
-@keyframes fade {
-    0%{
-        opacity: 0%;
-    }
-    50% {
-        opacity: 50%;
-    }
-}
-
-@keyframes fade-out {
-    0%{
-        opacity: 100%;
-    }
-    100% {
-        opacity: 0%;
-    }
+    transition: 1s ease-in;
 }
 
 .loader .stroke {
