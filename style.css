@@ -15,7 +15,7 @@ body {
     color: #fff;
     font-family: "Onest";
     flex-direction: column;
-    background: linear-gradient(135deg, #393f95ff, #b72485ff 40%, #fc0965ff, #ef5734ff);
+    background: linear-gradient(135deg, #393f95ff 10%, #b72485ff 40%, #fc0965ff 70%, #ef5734ff);
 }
 
 h1 {
